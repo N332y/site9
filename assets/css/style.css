@@ -1,4 +1,4 @@
-/* -----------Подключение Comfortaa------------ */
+/* Подключение шрифтов */
 @font-face {
     font-family: 'Comfortaa';
     src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
@@ -20,7 +20,6 @@
     font-weight: 700;
     font-display: swap;
 }
-/* -----------Подключение Poppins------------ */
 @font-face {
     font-family: 'Poppins';
     src: url(../fonts/Poppins-Medium.ttf) format("truetype");
@@ -28,7 +27,6 @@
     font-weight: 500;
     font-display: swap;
 }
-/* -----------Подключение Roboto------------ */
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Black.ttf) format("truetype");
@@ -64,7 +62,6 @@
     font-weight: 500;
     font-display: swap;
 }
-/* -----------Подключение Montserrat------------ */
 @font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
@@ -114,7 +111,7 @@ html{
     height: 100%;
     margin: 0 auto;
 }
-/* -----HEADER------ */
+/* HEADER */
 .header{
     width: 1920px;
     height: 170px;
@@ -126,7 +123,6 @@ html{
     display: flex;
     justify-content: space-between;
 }
-/* ----Header LOGO---- */
 .header__logo{
     font-family: 'Comfortaa';
     font-style: normal;
@@ -139,7 +135,6 @@ html{
 .header__logo:hover{
     transform: scale(1.2);
 }
-/* ----Header NAV---- */
 .header__nav{
     width: 376px;
     display: flex;
@@ -158,7 +153,6 @@ html{
     border-bottom: 1px solid #FFFFFF;
     transform: scale(1.2);
 }
-/* ----Header LOG----- */
 .header__log{
     width: 282px;
     display: flex;
@@ -192,7 +186,7 @@ html{
     background: #FFFFFF;
     border-radius: 30px;    
 }
-/* ----MAIN SECTION---- */
+/* MAIN SECTION */
 .main__section{
     width: 1920px;
     height: 1000px;
@@ -259,7 +253,7 @@ html{
 .main__btn:hover{
     animation: bounce 1s;
 }
-/* ----CLOUD SECTION---- */
+/* CLOUD SECTION */
 .features__container{
     width: 1213px;
     height: 1166px;
@@ -315,7 +309,7 @@ html{
     line-height: 150%;
     color: #2B4964;
 }
-/* ----PRICE__SECTION---- */
+/* PRICE__SECTION */
 .price__section{
     width: 1920px;
     height: 1279px;
@@ -505,7 +499,7 @@ html{
     align-self: center;
     width: 308px;
 }
-/* ----DOWNLOAD SECTION---- */
+/* DOWNLOAD SECTION */
 .download__section{
     width: 1920px;
     height: 409px;
@@ -550,7 +544,7 @@ html{
     width: 74px;
     height: 74px;
 }
-/* ----FOOTER SECTION---- */
+/* FOOTER SECTION */
 .footer__section{
     width: 1920px;
     height: 1085px;
@@ -643,7 +637,7 @@ html{
     line-height: 27px;
     color: #FFFFFF;
 }
-/* ---ЗАГАЛОВКИ--- */
+/* ЗАГАЛОВКИ */
 h1{
     width: 507px;
     font-family: 'Roboto';

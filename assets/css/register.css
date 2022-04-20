@@ -1,4 +1,4 @@
-/* -----------Подключение Comfortaa------------ */
+/* Подключение шрифтов */
 @font-face {
     font-family: 'Comfortaa';
     src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
@@ -20,7 +20,6 @@
     font-weight: 700;
     font-display: swap;
 }
-/* -----------Подключение Poppins------------ */
 @font-face {
     font-family: 'Poppins';
     src: url(../fonts/Poppins-Medium.ttf) format("truetype");
@@ -28,7 +27,6 @@
     font-weight: 500;
     font-display: swap;
 }
-/* -----------Подключение Roboto------------ */
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Black.ttf) format("truetype");
@@ -64,7 +62,6 @@
     font-weight: 500;
     font-display: swap;
 }
-/* -----------Подключение Montserrat------------ */
 @font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
@@ -118,7 +115,7 @@ a{
     display: flex;
     justify-content: space-between;
 }
-/* ----Header LOGO---- */
+/* Header */
 .header__logo{
     font-family: 'Comfortaa';
     font-style: normal;
@@ -131,7 +128,6 @@ a{
 .header__logo:hover{
     transform: scale(1.2);
 }
-/* ----Header NAV---- */
 .header__nav{
     width: 376px;
     display: flex;
@@ -150,7 +146,6 @@ a{
     border-bottom: 1px solid #FFFFFF;
     transform: scale(1.2);
 }
-/* ----Header LOG----- */
 .header__log{
     width: 282px;
     display: flex;
@@ -184,7 +179,7 @@ a{
     background: #FFFFFF;
     border-radius: 30px;    
 }
-/* ----REGISTER SECTION---- */
+/* REGISTER SECTION */
 .register__container{
     width: 1920px;
     height: 1350px;
@@ -336,7 +331,6 @@ a{
     align-items: center;
     margin-left: 70px;
 }
-/* ----DOWNLOAD SECTION---- */
 .download__section{
     width: 1920px;
     height: 409px;
@@ -386,7 +380,7 @@ a{
     width: 74px;
     height: 74px;
 }
-/* ---FOOTER SECTION---- */
+/* FOOTER SECTION */
 .footer__section{
     width: 1920px;
     height: 1085px;
